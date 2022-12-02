@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
+  }
+
+
+  body{
+    position: relative;
+    width: 100vw;
+    height: 1400px;
+      background-image: url(./img/back.svg);
+      background-repeat: no-repeat;
+      background-position: center bottom;
+  }
+  canvas {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 500px;
+    left: 210px;
+    /* transform: translate(-50%); */
+    /* background-color: #c9575763; */
+  }
+  
+  .body{
+    position: absolute;
+    width: 1600px;
+    top: 100px;
+    left: 0px;
+
+}
+
+  .container{
+   width: auto;
+   height: 100vh; 
+   position: relative;
+  }
+
+.base{
+  position: absolute;
+  top: 1000px;
+  left: 80px;
+  z-index: 8;
+  width: 484px;
+  height: 330px;
+}
+
+
+.rotate-base{
+  position: absolute;
+  z-index: 8;
+  width: 484px;
+  height: 330px;
+  transform-origin: top left;
+}
+
+.rotate-base img{
+  position: absolute;
+  top: -72px;
+  left: -72px;
+  width: 580px;
+  height: 467px;
+  /* background-image: url(./img/arm1.svg); */
+
+}
+
+.move-base{
+  position: absolute;
+  top: 610px;
+  left: 944px;
+  z-index: 8;
+}
+
+.guitar{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.hand img{
+  width: 100%;
+}
+.hand-position{
+  top: 445px;
+  left: 900px;
+  position: absolute;
+  /* background-color: rgba(57, 68, 68, 0.5); */
+  width: 400px;
+  height: 600px;
+  z-index: 999;
+  display: flex;
+  transform: translate(115px);
+}
+.hand{
+  position: absolute;
+  width: 195px;
+  /* background-color: rgba(0, 255, 255, 0.329); */
+  /* transform: translate(-50%,-50%); */
+  left: 345px;
+  top: 215px;
+  cursor: pointer;
+}

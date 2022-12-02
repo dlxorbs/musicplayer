@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="player.css">
+    <meta charset="utf-8"/>
+
+  </head>
+  <body>
+    
+    <script src="sketch.js"></script>
+    <script src="sketch2.js"></script>
+    <script src="hand.js"></script>
+
+    <script src="music.js"></script>
+
+<main>
+  <div class="hand-position">
+    <div class="hand">
+      <img src="img/hand2.svg" alt="" style="-webkit-user-drag: none;">
+    </div>
+  </div>
+
+
+  <div class="container">
+
+
+
+    <div class="base">
+      <div class="rotate-base man">
+        <img src="./img/arm1.svg" alt="" style="-webkit-user-drag: none;">
+        <!-- <div class="img"></div> -->
+      </div>
+    </div>
+
+    <div class="body man">
+      <img src="./img/body.svg" alt="">
+    </div>
+
+    <div class="move-base man">
+      <img src="./img/arm2.svg" alt="">
+    </div>
+
+    <div class="guitar man">
+      <img src="./img/guitar.svg" alt="">
+    </div>
+  </div>
+
+  <div class="player">
+
+    <h1 id="current_title"></h1>
+    <div id="progressbar">
+      <div id="current_progress"></div>
+    </div>
+
+
+
+    <div id="volume"></div>
+    <button id="btn_play">재생</button>
+    <button id="btn_stop">정지</button>
+    <button id="btn_prev">이전</button>
+    <button id="btn_next">다음</button>
+  </div>
+</main>
+
+  </body>
+</html>
