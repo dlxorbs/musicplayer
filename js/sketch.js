@@ -167,7 +167,7 @@ function updateSpring() {
             overs[i] = true;
             // 기타줄의 각 구별을 위한 3번째 줄이 움직이면 3이 출력
             move_i = i;
-            console.log(move_i)
+            // console.log(move_i)
         }
         // if (mouseX > left && mouseX < right && mouseY > y && mouseY < y + springHeight) {
         //     over = true;
@@ -205,4 +205,4 @@ function mouseReleased() {
     // oen.play();
 }
 
-console.log(stringsVX)
+// console.log(stringsVX)

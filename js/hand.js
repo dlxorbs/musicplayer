@@ -9,7 +9,7 @@ $(function () {
         let rad = Math.atan2(mouseX -leftpoint, mouseY -  toppoint);
         deg = (rad * (180 / Math.PI)*-1 )+50 ; 
 
-        console.log(deg)
+        // console.log(deg)
         if(mouseX < $(document).innerWidth()*4/9 
         && mouseY > $(document).innerHeight()/2){
             
@@ -55,3 +55,4 @@ function RighthandChange(){
         $('.rotate-base img').attr('src', './img/arm1.svg')
     }
 }  
+
