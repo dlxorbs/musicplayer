@@ -1,0 +1,33 @@
+
+.player{
+    position: absolute;
+    z-index: 20;
+    bottom: 20px;
+    right: 100px;
+
+    width: 300px;
+    height: 400px;
+    padding: 16px 20px;
+    background-color: beige;
+}
+
+
+.player h1{
+    width: 100%;
+    word-break: keep-all;
+}
+
+#progressbar{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 4px;
+    border-radius: 2px;
+    margin: 0 0 12px 0;
+}
+
+#current_progress{
+ width: 0px;   
+ height: 100%;
+ background-color: blue;
+ transition: 0.5s;
+}
