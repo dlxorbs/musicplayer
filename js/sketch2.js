@@ -41,12 +41,12 @@ $(function () {
         isDragging = false;
         if(!isDragging){
             let left = $('.hand').offset().left - $('.hand-position').offset().left
-            console.log(left)
+            // console.log(left)
             for (let i = 0; i < 4; ++i) {
                 if(left>-50+2*50*i && left<50+2*50*i){
                     let u = 100*i;
                     let t = handTop + (handLeft - u)*5/9;
-                    console.log(left,-100+100*i)
+                    // console.log(left,-100+100*i)
                     $('.hand').css("left", u).css("top", t)
 
                     goal = 330-(i*100)
